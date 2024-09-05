@@ -1,0 +1,94 @@
+#gallery .gallerybanner {
+    background-image: url('../../images/gallerybanner.jpeg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    background-position: center;
+}
+
+#gallery .gallery_head {
+    font-size: 1.1vw;
+    font-weight: 600;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#gallery .gallery_head .more {
+    font-size: 16px;
+    color: #003068;
+    display: flex;
+    align-items: center;
+}
+
+#gallery .gallery_head .more .icco {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1560px) {
+    #gallery .gallerybanner {
+        height: 40vh;
+    }
+
+    #gallery .gallery_head {
+        font-size: 1.3vw;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    #gallery .gallerybanner {
+        height: 35vh;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    #gallery .gallerybanner {
+        height: 21vw;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #gallery .gallerybanner {
+        height: 35vw;
+    }
+
+    #gallery .gallery_head {
+        font-size: 1.6vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #gallery .gallerybanner {
+        background-size: 124% 100%;
+    }
+
+    #gallery .gallery_head {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #gallery .gallery_head {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #gallery .gallerybanner {
+        height: 40vw;
+        background-size: 200% 100%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #gallery .gallerybanner {
+        height: 200px;
+        background-size: 150% 100%;
+    }
+}

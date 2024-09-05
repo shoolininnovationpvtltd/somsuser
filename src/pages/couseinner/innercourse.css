@@ -1,0 +1,175 @@
+#innercourse .banner {
+    background-image: url('../../images/icourse.png');
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#innercourse .course_det {
+    padding-top: 5vh !important;
+    padding-bottom: 5vh !important;
+    margin-bottom: 30px;
+}
+
+#innercourse .course_det .course_type {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-left: -8px;
+}
+
+#innercourse .course_det .course_name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d376e;
+    margin: 15px 0px;
+}
+
+#innercourse .course_det .c_connn {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#innercourse .course_det .course_query {
+    background: unset;
+    border: 2px solid #c3ecc9;
+    font-size: 14px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#innercourse .course_det .course_query:hover {
+    background-color: #c3ecc9;
+    border: 2px solid #c3ecc9;
+    color: white;
+    font-weight: 600;
+
+}
+
+#innercourse .course_det .course_criteria {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#innercourse .course_det .abccc {
+    padding: 15px 0 !important;
+}
+
+#innercourse .course_det .head_des {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+#innercourse .course_det .head_des .head_des_c {
+    color: #153b87;
+    font-weight: 500;
+}
+
+#innercourse .course_det ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+#innercourse .course_det ul li .dott {
+    font-size: 6px;
+}
+#innercourse .course_det .dotted_conn{
+    font-size: 14px;
+    color: #1d376e;
+    font-weight: 500;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.apply_formm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.apply_formm .fill {
+    font-size: 16px;
+    font-weight: 600;
+    color: #003068;
+}
+
+.apply_formm .fill_con {
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.apply_formm .inp_des {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.apply_formm .inp_data {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #003068;
+    color: #003068;
+    margin-bottom: 15px;
+}
+
+.apply_formm .submit_course {
+    font-size: 12px;
+    color: white;
+    background: #0850a2;
+    border: unset;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1500px) {
+    #innercourse .banner {
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #innercourse .banner {
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .apply_formm {
+        width: 96vw;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #innercourse .banner {
+        height: 24vh;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #innercourse .banner {
+        height: 18vh;
+    }
+}

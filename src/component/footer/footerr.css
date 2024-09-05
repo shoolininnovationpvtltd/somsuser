@@ -1,0 +1,199 @@
+#footer {
+    background-color: #003068;
+    position: relative;
+}
+
+#footer .f_top {
+    display: flex;
+    background: white;
+    border-radius: 6px;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    width: 60vw;
+    position: absolute;
+    left: 20vw;
+    top: -41px;
+    box-shadow: 0 0 0px 1px black;
+}
+
+#footer .f_top .embark {
+    font-size: 1.4vw;
+    font-weight: 600;
+    width: 12vw;
+    color: #191240;
+}
+
+#footer .f_top .embark_con {
+    font-size: .9vw;
+    width: 31vw;
+    color: #191240;
+}
+
+#footer .f_top .enqq {
+    background-color: #191240;
+    border: unset;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 #1d2025;
+}
+/* ------------------------------------------ */
+#footer .f_lay{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    color: white;
+    justify-content: space-between;
+}
+#footer .f_lay .f_lay_c .llollgg{
+    width: 70%;
+    margin-bottom: 10px;
+}
+#footer .f_lay .f_lay_c .f_lay_conn{
+    font-size: 1vw;
+    margin-bottom: 12px;
+    color: white;
+}
+#footer .f_lay .f_lay_c .f_lay_c_h{
+    font-size: 1.2vw;
+    margin-bottom: 10px;
+    color: #ccc;
+    margin-top: 40px;
+}
+#footer .f_lay .f_lay_c a{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+#footer .f_lay .f_lay_c ul li{
+    cursor: pointer;
+}
+.ccoonn{
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
+    padding: 3px !important;
+    border: 1px solid white !important;
+    margin: unset !important;
+}
+.f_bottom{
+    background: #003068;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #777777;
+}
+.socila_m_icoon{
+    color: white;
+    height: 32px !important;
+    width: 35px !important;
+    padding: 4px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 1401px) {
+    #footer .f_lay .f_lay_c .f_lay_conn {
+        font-size: 1.4vw;
+    }
+    #footer .f_lay .f_lay_c .llollgg {
+        width: 60%;
+    }
+    #footer .f_lay .f_lay_c .f_lay_c_h {
+        font-size: 1.8vw;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    #footer .f_top {
+        width: 70vw;
+        left: 15vw;
+    }
+    #footer .f_top .embark_con {
+        font-size: 1.3vw;
+        width: 35vw;
+    }
+    #footer .f_top .embark {
+        font-size: 1.8vw;
+        width: 14vw;
+    }
+    #footer .f_top button {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 801px) {
+    #footer .f_top {
+        width: 84vw;
+        left: 8vw;
+        flex-wrap: wrap;
+    }
+    #footer .f_top .embark_con {
+        font-size: 1.6vw;
+        width: 48vw;
+    }
+    #footer .f_top .embark {
+        font-size: 2vw;
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    #footer .f_top button {
+        font-size: 7px;
+    }
+    #footer .f_lay .f_lay_c .f_lay_conn {
+        font-size: 1.7vw;
+    }
+    #footer .f_lay .f_lay_c .f_lay_c_h {
+        font-size: 2.2vw;
+    }
+    #footer .f_lay .f_lay_c .llollgg {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #footer .f_top .embark {
+        font-size: 2.5vw;
+    }
+    #footer .f_top .embark_con {
+        font-size: 2vw;
+        width: 50vw;
+    }
+    #footer .f_top button {
+        font-size: 10px;
+    }
+    #footer .f_lay .f_lay_c {
+        width: 100%;
+    }
+    #footer .f_lay .f_lay_c .llollgg {
+        width: 40%;
+    }
+    #footer .f_lay .f_lay_c .f_lay_conn {
+        font-size: 4vw;
+    }
+    #footer .f_lay .f_lay_c .f_lay_c_h {
+        font-size: 4.5vw;
+    }
+    #footer .f_lay .f_lay_c .f_lay_c_h {
+        margin-top: unset;
+    }
+    .s_name{
+        font-size: 6vw !important;
+    }
+    .s_addd{
+        font-size: 5vw !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #footer .f_top .embark {
+        font-size: 3.5vw;
+    }
+    #footer .f_top .embark_con {
+        font-size: 2.5vw;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

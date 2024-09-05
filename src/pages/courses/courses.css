@@ -1,0 +1,201 @@
+#course .banner {
+    background-image: url('../../images/coursesbanner.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    background-position: center;
+}
+
+#course .course_background .course_type {
+    margin: 30px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#course .course_background .c_card_cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#course .course_background .c_card_cont .c_card {
+    width: 32%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 11px 0px #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#course .course_background .c_card_cont .c_card .course_h_name {
+    background: #1d376e;
+    color: white;
+    font-size: .95vw;
+    font-weight: 500;
+    padding: 16px 15px;
+}
+
+#course .course_background .c_card_cont .c_card .img_cont {
+    height: 202px;
+}
+
+#course .course_background .c_card_cont .c_card .img_cont img {
+    width: 100%;
+    height: 100%;
+}
+
+#course .course_background .c_card_cont .c_card .course_descr {
+    padding: 20px 5px;
+    font-size: .8vw;
+    line-height: 27px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 94%;
+    margin: 0 auto;
+}
+
+#course .course_background .c_card_cont .c_card .c_det_btn {
+    margin: 0 auto;
+    display: inherit;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: white;
+    background: #1c366b;
+    border: unset;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+#course .course_background .c_card_cont .c_card .c_det_btn:hover{
+    cursor: pointer !important;
+    font-weight: 600 !important;
+}
+@media only screen and (max-width: 1560px) {
+    #course .banner {
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    #course .banner {
+        height: 35vh;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    #course .banner {
+        height: 21vw;
+    }
+
+    #course .course_background .c_card_cont .c_card .course_h_name {
+        color: white;
+        font-size: 1.3vw;
+        height: 77px;
+    }
+
+    #course .course_background .c_card_cont .c_card .course_descr {
+        width: unset;
+    }
+
+    #course .course_background .c_card_cont .c_card .img_cont {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #course .course_background .c_card_cont .c_card .course_descr {
+        font-size: 1.1vw;
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #course .banner {
+        height: 24vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #course .banner {
+        height: 28vw;
+        background-size: 124% 100%;
+    }
+
+    #course .course_background .c_card_cont .c_card {
+        width: 49%;
+    }
+
+    #course .course_background .c_card_cont .c_card .course_h_name {
+        font-size: 1.9vw;
+    }
+
+    #course .course_background .c_card_cont .c_card .img_cont {
+        height: 202px;
+    }
+
+    #course .course_background .c_card_cont .c_card .course_descr {
+        font-size: 1.55vw;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    #course .course_background .c_card_cont .c_card .img_cont {
+        height: 150px;
+    }
+
+    #course .course_background .c_card_cont .c_card .course_h_name {
+        font-size: 1.8vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #course .banner {
+        height: 40vw;
+        background-size: 200% 100%;
+    }
+
+    #course .course_background .c_card_cont .c_card .course_descr {
+        font-size: 1.6vw;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #course .banner {
+        height: 200px;
+        background-size: 120% 100%;
+    }
+
+    #course .course_background .c_card_cont .c_card {
+        width: 100%;
+    }
+
+    #course .course_background .c_card_cont .c_card .course_h_name {
+        font-size: 3vw;
+        height: unset;
+    }
+
+    #course .course_background .c_card_cont .c_card .img_cont {
+        height: 230px;
+    }
+
+    #course .course_background .c_card_cont .c_card .course_descr {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #course .course_background .c_card_cont .c_card .img_cont {
+        height: unset;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #course .course_background .c_card_cont .c_card .course_descr {
+        text-align: justify;
+    }
+}

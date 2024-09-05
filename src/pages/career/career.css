@@ -1,0 +1,218 @@
+#contact .contactbanner {
+    background-image: url('../../images/contactbanner.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    background-position: center;
+}
+
+#contact .contactus_cont {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5vh !important;
+    padding-bottom: 10vh !important;
+}
+
+#contact .contactus_cont .contactus_cont_l,
+#contact .contactus_cont .contactus_cont_r {
+    width: 50%;
+}
+
+#contact .contactus_cont .contactus_cont_l .contactus_cont_head,
+#contact .contactus_cont .contactus_cont_r .contactus_cont_head {
+    font-size: 1.3vw;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#contact .contactus_cont .contactus_cont_l .ancchhoorr {
+    display: flex;
+    align-items: center;
+    color: #1d376e;
+    font-size: 16px;
+    gap: 5px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+#contact .contactus_cont .contactus_cont_l .ancchhoorr .iicon {
+    color: #1d376e;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#contact .contactus_cont .contactus_cont_l .contact_add {
+    display: flex;
+    align-items: start;
+    color: #1d376e;
+    font-size: 16px;
+    gap: 5px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 90%;
+    
+}
+
+#contact .contactus_cont .contactus_cont_l .contact_add .iconn {
+    color: #1d376e;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.f,
+.l,
+.i,
+.t {
+    height: 40px;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.f {
+    background-color: #3a559f;
+}
+
+.l {
+    background-color: #007ab9;
+}
+
+.i {
+    background-color: #007ab9;
+}
+
+.t {
+    background: #00a6de;
+}
+
+#contact .contactus_cont .contactus_cont_r .inp_sty {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #14274a;
+    padding: 10px;
+    color: #14274a;
+    font-size: 12px;
+}
+
+#contact .contactus_cont .contactus_cont_r label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #1d376e;
+    font-weight: 500;
+}
+
+#contact .contactus_cont .contactus_cont_r .contact_submit_hold {
+    width: 100%;
+}
+
+#contact .contactus_cont .contactus_cont_r .contact_submit_hold .contact_submit {
+    font-size: 13px;
+    color: white;
+    background: #14274a;
+    font-weight: 500;
+    padding: 8px 40px;
+    border-radius: 5px;
+    float: right;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+#contact .contactus_cont .contactus_cont_r {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#contact .contactus_cont .contactus_cont_r .contact_form_holder {
+    width: 80%;
+}
+
+@media only screen and (max-width: 1560px) {
+    #contact .contactbanner {
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    #contact .contactbanner {
+        height: 35vh;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    #contact .contactbanner {
+        height: 21vw;
+    }
+
+    #contact .contactus_cont .contactus_cont_r .contact_form_holder {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+
+    #contact .contactus_cont .contactus_cont_l .contactus_cont_head,
+    #contact .contactus_cont .contactus_cont_r .contactus_cont_head {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    #contact .contactus_cont {
+        padding-bottom: 80px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #contact .contactbanner {
+        height: 35vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #contact .contactbanner {
+        background-size: 124% 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    #contact .contactus_cont .contactus_cont_l,
+    #contact .contactus_cont .contactus_cont_r {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #contact .contactus_cont {
+        padding-bottom: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #gallery .gallery_head {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #contact .contactbanner {
+        height: 40vw;
+        background-size: 200% 100%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #contact .contactbanner {
+        height: 200px;
+        background-size: 150% 100%;
+    }
+}

@@ -1,0 +1,69 @@
+.mlay{
+    position: relative;
+    top: 94px;
+}
+.alignfooter{
+    height: 100px;
+}
+textarea {
+    resize: none;
+}
+.errr_field{
+    color: red;
+}
+@media only screen and (max-width: 1660px) {
+    .mlay{
+        top: 92px;
+    }
+    .alignfooter {
+        height: 96px;
+    }
+}
+@media only screen and (max-width: 1560px) {
+    .mlay{
+        top: 86px;
+    }
+    .alignfooter {
+        height: 90px;
+    }
+}
+@media only screen and (max-width: 1460px) {
+    .mlay{
+        top: 82px;
+    }
+    .alignfooter {
+        height: 86px;
+    }
+}
+@media only screen and (max-width: 1360px) {
+    .mlay{
+        top: 77px;
+    }
+    .alignfooter {
+        height: 80px;
+    }
+}
+@media only screen and (max-width: 1260px) {
+    .mlay{
+        top: 74px;
+    }
+    .alignfooter {
+        height: 76px;
+    }
+}
+@media only screen and (max-width: 1160px) {
+    .mlay{
+        top: 69px;
+    }
+    .alignfooter {
+        height: 74px;
+    }
+}
+@media only screen and (max-width: 1060px) {
+    .mlay{
+        top: 65px;
+    }
+    .alignfooter {
+        height: 70px;
+    }
+}
